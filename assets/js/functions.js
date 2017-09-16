@@ -51,6 +51,12 @@ $( document ).ready(function() {
 
   });
 
+  $('.shop').click(function(){
+
+        window.location.replace ("C:\Users\Yago\Desktop\GitHub\BoomCorporation-master from STARBOOTSTRAP\index.html") 
+
+  });
+
   $('.cta').click(function(){
 
     var curActive = $('.side-nav').find('.is-active'),
